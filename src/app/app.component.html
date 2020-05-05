@@ -1,5 +1,11 @@
 <h1>Садовые растения</h1>
 <h2>{{plant.name}}</h2>
 <p>{{plant.description}}</p>
-<p>{{plant.price}}</p>
+<p>{{plant.price|currency:"RUB":true}}</p>
+
+<form>
+	<p>Название: <input [(ngModel)]="plant.name" name="name"></p>
+	<p>Описание: <input [(ngModel)]="plant.description" name="description"></p>
+	<p>Цена: <input [(ngModel)]="plant.price" name="price"></p>
+</form>
 
