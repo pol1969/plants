@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
 	constructor(private ps:PlantService) {};
 	ngOnInit() {
 		this.plants = this.ps.getPlants();
+		window.console.log("Привет")
 	}
   }
 

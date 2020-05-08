@@ -1,4 +1,5 @@
 <h1>Садовые растения</h1>
 <ul>
-	<li *ngFor="let plant of plants">{{plant.name}}</li>
+	<li *ngFor="let plant of plants" (click)="detail.plant=plant">{{plant.name}}</li>
 </ul>
+<app-plant-detail #detail></app-plant-detail>

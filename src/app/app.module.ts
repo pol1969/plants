@@ -5,10 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PlantService } from './plant.service';
+import { PlantDetailComponent } from './plant-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlantDetailComponent
   ],
   imports: [
     BrowserModule,
