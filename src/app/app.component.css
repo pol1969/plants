@@ -1,0 +1,14 @@
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	font-size: large;
+}
+ul li {
+	margin: 5px 0px;
+	padding: 10px;
+	cursor: pointer;
+	borfer: LightGrey 3px;
+}
+ul li:hover {
+	background-color: LightGrey;
+}
